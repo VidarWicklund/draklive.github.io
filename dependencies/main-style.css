@@ -1,0 +1,85 @@
+body
+{
+	margin: 0;
+	background: #f0f0f0;
+}
+
+#page
+{
+	overflow: scroll;
+	text-align: center;
+	height:100vh;
+}
+.image-bar
+{
+	z-index: -1;
+	position:fixed; 
+	overflow: hidden;
+	height: 14.5vw;
+}
+.image-bar-spacer
+{
+	height: 14.5vw;
+}
+.bar-image
+{
+	display: block;
+	position: relative;
+	width: 100vw;
+}
+#menu-bar
+{
+	background: #9c1c25;
+}
+.menu-bar-fixed
+{
+	width:100vw;
+	top:0;
+	position: fixed;
+}
+.menu-center-container
+{
+	max-width: 150rem;
+	margin: 0 auto;
+}
+.loggo-and-name
+{
+	float:left;
+	
+	color: white;
+	font-size: 2rem;
+	padding: 0.5rem;
+}
+.menu-list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu-list-item
+{
+	font-size: 1.5rem;
+	float: right;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.menu-list-item:hover
+{
+	background: #b01c25;
+    text-decoration: none;
+}
+.content-page
+{
+	background: #f0f0f0;
+}
+#content
+{
+	margin: 0 auto;
+	background: #e5e5e5;
+	max-width: 150rem;
+	min-height: 1000rem;
+}
