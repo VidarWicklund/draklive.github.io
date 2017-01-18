@@ -33,9 +33,10 @@ body
 }
 .menu-bar-fixed
 {
-	width:100vw;
 	top:0;
 	position: fixed;
+	left:0px;
+	right:15px;
 }
 #menu-bar-spacer
 {
