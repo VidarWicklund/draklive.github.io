@@ -1,6 +1,11 @@
 function gotoPage(page_name)
 {
-	alert('We are sorry, we havent added the "' + page_name + '" page yet');
+	if(page_name == "rosnet")
+	{
+		window.open('http://rosnet.rosendalsgymnasiet.se/',  "_blank");
+		return;
+	}
+	alert('We are sorry, we have not added the "' + page_name + '" page yet');
 }
 function pageScroll()
 {
@@ -12,10 +17,12 @@ function pageScroll()
 	if (percent > 0.145)
 	{
 		addClass(element, "menu-bar-fixed");
+		document.getElementById("menu-bar-spacer").style.display = "block";
 	}
 	else
 	{
 		removeClass(element, "menu-bar-fixed");
+		document.getElementById("menu-bar-spacer").style.display = "none";
 	}
 }
 
