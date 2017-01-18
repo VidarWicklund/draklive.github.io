@@ -17,6 +17,7 @@ function pageScroll()
 	if (percent > 0.145)
 	{
 		addClass(element, "menu-bar-fixed");
+		document.getElementsByClassName("menu-bar-fixed")[0].style.width = document.getElementById("page").clientWidth + "px";
 		document.getElementById("menu-bar-spacer").style.display = "block";
 	}
 	else
@@ -26,6 +27,9 @@ function pageScroll()
 	}
 }
 
+window.addEventListener('resize', function(event){
+  document.getElementsByClassName("menu-bar-fixed")[0].style.width = document.getElementById("page").clientWidth + "px";
+});
 
 //others code, but it seems to work
 function hasClass(el, className) {
