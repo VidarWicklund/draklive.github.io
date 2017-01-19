@@ -97,3 +97,11 @@ body
 	pointer-events:none;
 	cursor:default;
 }
+#Botten{
+	font-size:1rem;
+	border:solid;
+	border-width:0.001rem;
+	width:10rem;
+	display:block;
+	margin:auto;
+}
