@@ -27,23 +27,19 @@ body
 	position: relative;
 	width: 100vw;
 }
-#menu-bar
+.menu-bar
 {
 	background: #9c1c25;
 }
-.menu-bar-fixed
+#menu-bar-fixed
 {
+	display:none;
 	top:0;
 	position: fixed;
 }
-#menu-bar-spacer
-{
-	display:none;
-	min-height: 3.5rem;
-}
 .menu-center-container
 {
-	max-width: 150rem;
+	max-width: 62.5rem;
 	margin: 0 auto;
 }
 .loggo-and-name
@@ -84,7 +80,7 @@ body
 {
 	margin: 0 auto;
 	background: #e5e5e5;
-	max-width: 150rem;
+	max-width: 62.5rem;
 	min-height: 100rem;
 }
 
