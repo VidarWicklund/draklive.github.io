@@ -17,9 +17,7 @@ function gotoPage(page_name)
 }
 function pageScroll()
 {
-	var width = document.getElementById("page").clientWidth;
-	var scrolltop = document.getElementById("page").scrollTop;
-	var percent = scrolltop/width;
+	var percent = document.getElementById("page").scrollTop/document.getElementById("page").clientWidth;
 	if (percent > 0.145)
 	{
 		
