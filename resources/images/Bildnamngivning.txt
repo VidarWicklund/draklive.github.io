@@ -1,0 +1,4 @@
+Först kommer namnet - R
+Sen kommer pixelstorleken - 1000x1000
+Sen kommer bakgrundsfärgen - svart,transparent,vit
+Sist kan en siffra visa olika alternativ som är snarlika - 1,2,3
