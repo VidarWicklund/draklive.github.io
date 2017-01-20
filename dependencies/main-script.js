@@ -1,3 +1,11 @@
+onLoad();
+
+function onLoad()
+{
+	document.getElementById("menu-bar-fixed").innerHTML = document.getElementById("menu-bar").innerHTML;
+	document.getElementById("menu-bar-fixed").style.width = document.getElementById("page").clientWidth + "px";
+}
+
 function gotoPage(page_name)
 {
 	if(page_name == "rosnet")
@@ -12,13 +20,9 @@ function pageScroll()
 	var width = document.getElementById("page").clientWidth;
 	var scrolltop = document.getElementById("page").scrollTop;
 	var percent = scrolltop/width;
-	
-	document.getElementById("menu-bar-fixed").innerHTML = document.getElementById("menu-bar").innerHTML;
-	
-	var element = document.getElementById("menu-bar");
 	if (percent > 0.145)
 	{
-		document.getElementById("menu-bar-fixed").style.width = document.getElementById("page").clientWidth + "px";
+		
 		document.getElementById("menu-bar-fixed").style.display = "block";
 	}
 	else
