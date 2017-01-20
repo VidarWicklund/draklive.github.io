@@ -30,5 +30,5 @@ function pageScroll()
 }
 
 window.addEventListener('resize', function(event){
-  document.getElementsByClassName("menu-bar-fixed")[0].style.width = document.getElementById("page").clientWidth + "px";
+  document.getElementById("menu-bar-fixed").style.width = document.getElementById("page").clientWidth + "px";
 });
